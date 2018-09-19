@@ -1,4 +1,4 @@
-![Image](screenshots/cover_pic-01.png)
+![Image](screenshots/Untitled-1.png)
 
 # Quote
 final project for the Udacity Android Developer Nanodegree.
