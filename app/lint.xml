@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/contact.jpg" />
+        <ignore path="src/main/res/drawable/favourites.png" />
+        <ignore path="src/main/res/drawable/feed.png" />
+        <ignore path="src/main/res/drawable/g_sign.png" />
+        <ignore path="src/main/res/drawable/ic_heart_off.png" />
+        <ignore path="src/main/res/drawable/ic_heart_on.png" />
+        <ignore path="src/main/res/drawable/logo.png" />
+        <ignore path="src/main/res/drawable/logo1.png" />
+        <ignore path="src/main/res/drawable/logo2.png" />
+        <ignore path="src/main/res/drawable/logo3.png" />
+        <ignore path="src/main/res/drawable/logo4.png" />
+        <ignore path="src/main/res/drawable/logout.png" />
+        <ignore path="src/main/res/drawable/powerd_by.png" />
+        <ignore path="src/main/res/drawable/refresh.png" />
+        <ignore path="src/main/res/drawable/refresh_logo.png" />
+        <ignore path="src/main/res/drawable/setting_background.jpg" />
+        <ignore path="src/main/res/drawable/shadow.png" />
+        <ignore path="src/main/res/drawable/splash.png" />
+        <ignore path="src/main/res/drawable/twitter_logo_off.png" />
+        <ignore path="src/main/res/drawable/twitter_logo_on.png" />
+    </issue>
+</lint>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name" translatable="true">Quote</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+
+
+    <string name="USER_NAME_KEY" translatable="false">USER_NAME_KEY</string>
+    <string name="USER_IMG_KEY" translatable="false">USER_IMG_KEY</string>
+    <string name="USER_DEFAULT_IMG" translatable="false">http://www.vibro.no/wp-content/uploads/2018/01/default-user-image-500x500.png</string>
+
+    <!--TAP LAYOUT LABELS-->
+    <string name="TAP_LAYOUT_SETTINGS_LABEL" translatable="true">settings</string>
+    <string name="TAP_LAYOUT_FEED_LABEL" translatable="true">quote feed</string>
+    <string name="TAP_LAYOUT_FAVOURITES_LABEL" translatable="true">favourites</string>
+
+
+    <string name="QUOTE_FEED_ARGUMENTS_KEY" translatable="false">favourites</string>
+    <string name="FAV_RECYCLER_STATE_KEY" translatable="false">fav_recycler_state</string>
+    <string name="FEED_RECYCLER_STATE_KEY" translatable="false">feed_recycler_state</string>
+
+
+    <!--SWITCH LABELS-->
+    <string name="SWITCH_LABEL_FAVOURITES" translatable="true">Favourites</string>
+    <string name="SWITCH_LABEL_RANDOM" translatable="true">Random</string>
+    <string name="SWITCH_LABEL_ON" translatable="true">On</string>
+    <string name="SWITCH_LABEL_OFF" translatable="true">Off</string>
+
+    <!--PREFRENCE KEYS-->
+    <string name="FIRST_USE_KEY" translatable="false">FIRST_USE</string>
+
+    <string name="WIDGET_SETTING_KEY" translatable="false">widget setting</string>
+    <string name="WIDGET_DEFAULT_SETTING" translatable="false">@string/SWITCH_LABEL_RANDOM</string>
+    <string name="WIDGET_SETTING_RANDOM" translatable="false">@string/SWITCH_LABEL_RANDOM</string>
+    <string name="WIDGET_SETTING_FAV" translatable="false">@string/SWITCH_LABEL_FAVOURITES</string>
+
+    <string name="RECYCLER_SETTING_KEY" translatable="false">recycler setting</string>
+    <string name="RECYCLER_DEFAULT_SETTING" translatable="false">@string/SWITCH_LABEL_OFF</string>
+    <string name="RECYCLER_SETTING_SHOW" translatable="false">@string/SWITCH_LABEL_OFF</string>
+    <string name="RECYCLER_SETTING_HIDE" translatable="false">@string/SWITCH_LABEL_ON</string>
+
+
+    <string name="MINBIBAR_TEXT" translatable="true">changes applied</string>
+
+    <string name="CONFIRM" translatable="true">Confirm</string>
+    <string name="CANCLE" translatable="true">Cancle</string>
+    <string name="WARNING_MESSAGE" translatable="true">, Are you sure you want to sign out?</string>
+
+    <string name="cd_app_splash_screen" translatable="true">App splash screen</string>
+    <string name="sign_in_with_google" translatable="true">Sign in with google</string>
+    <string name="refresh_button" translatable="true">refresh button</string>
+    <string name="no_quotes_available" translatable="true">no quotes available</string>
+    <string name="cd_user_image" translatable="true">user image</string>
+    <string name="sign_out" translatable="true">sign out</string>
+    <string name="refresh" translatable="true">refresh</string>
+    <string name="liked_quotes" translatable="true">liked quotes</string>
+    <string name="click_on_quote_to_show_like_tweet_buttons" translatable="true">Click on quote to show like/tweet buttons</string>
+    <string name="quotes_to_display_on_widget" translatable="true">Quotes to display on widget</string>
+    <string name="cd_like_button">like button</string>
+    <string name="cd_tweet_button">tweet button</string>
+
+
+
+    <string name="Toast_check_connection">check connection</string>
+    <string name="Toast_something_wrong">something went wrong</string>
+    <string name="Toast_sign_in_failed">sign in failed</string>
+
+
+</resources>

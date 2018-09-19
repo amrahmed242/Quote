@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:contentDescription="@string/cd_app_splash_screen" >
+
+        <com.yqritc.scalablevideoview.ScalableVideoView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0"
+            android:contentDescription="@null"
+            app:scalableType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/logoName"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:alpha="0"
+            android:contentDescription="@null"
+            android:src="@drawable/logo4" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="55dp"
+            android:layout_height="65dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="75dp"
+            android:alpha="0"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/logo" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/signInButton"
+        android:layout_above="@+id/progressBar"
+        android:alpha="0"
+        android:layout_marginBottom="30dp"
+        >
+
+
+        <!--suppress AndroidUnknownAttribute -->
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/googleButtonRippleView"
+            rv_centered="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/sign_in_with_google"
+            app:mrl_rippleColor="#ffffff">
+
+
+            <ImageView
+                android:id="@+id/GoogleSigninButtonBG"
+                android:layout_width="250dp"
+                android:layout_height="38dp"
+                android:scaleType="fitXY"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:alpha=".9"
+                app:srcCompat="@drawable/g_sign"
+                android:contentDescription="@null"/>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <TextView
+            android:id="@+id/GoogleSigninButtonT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/googleButtonRippleView"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="9dp"
+            android:fontFamily="@font/bebas"
+            android:text="@string/sign_in_with_google"
+            android:contentDescription="@null"
+            android:textColor="@color/colorAppName"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+
+
+    <ImageView
+        android:id="@+id/powerd_by"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:alpha="0"
+        android:contentDescription="@null"
+        app:srcCompat="@drawable/powerd_by" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_above="@+id/powerd_by"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:alpha="0" />
+
+
+</RelativeLayout>
+</layout>

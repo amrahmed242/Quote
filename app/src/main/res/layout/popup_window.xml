@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:alpha="0"
+    android:background="@layout/shape1"
+    tools:ignore="Overdraw">
+
+    <TextView
+        android:id="@+id/warning"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/bebas"
+        android:padding="2dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/warning"
+        android:layout_below="@+id/warning"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:background="@layout/popup_button_shape"
+        android:fontFamily="@font/bebas"
+        android:text="@string/CONFIRM"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/cancle"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/warning"
+        android:layout_below="@+id/warning"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="20dp"
+        android:background="@layout/popup_button_shape"
+        android:fontFamily="@font/bebas"
+        android:text="@string/CANCLE"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
+
+</layout>

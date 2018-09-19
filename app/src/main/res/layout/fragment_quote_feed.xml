@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress AndroidUnknownAttribute -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.QuoteFeedFragment">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/quote_feed_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+        <RelativeLayout
+            android:id="@+id/refreshButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/refreshButtonRippleView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dp"
+                android:fontFamily="@font/bebas"
+                android:text="@string/no_quotes_available"
+                android:textColor="@color/colorWhite"
+                android:textSize="36sp" />
+
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/refreshButtonRippleView"
+                rv_centered="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/refresh_button"
+                app:mrl_rippleColor="#787878">
+
+
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@null"
+                    app:srcCompat="@drawable/refresh" />
+
+
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <TextView
+                android:id="@+id/refreshButtonT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/refreshButtonRippleView"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="33dp"
+                android:fontFamily="@font/bebas"
+                android:text="@string/refresh"
+                android:contentDescription="@null"
+                android:textColor="@color/colorWhite"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/refreshLogo"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignStart="@+id/refreshButtonRippleView"
+                android:layout_centerVertical="true"
+                android:contentDescription="@null"
+                android:layout_marginStart="9dp"
+                app:srcCompat="@drawable/refresh_logo" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</layout>

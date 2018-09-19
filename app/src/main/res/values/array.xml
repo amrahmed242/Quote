@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="titles">
+        <item>@string/TAP_LAYOUT_FAVOURITES_LABEL</item>
+        <item>@string/TAP_LAYOUT_FEED_LABEL</item>
+        <item>@string/TAP_LAYOUT_SETTINGS_LABEL</item>
+    </array>
+
+    <array name="recycler_setting_switches">
+        <item>@string/SWITCH_LABEL_ON</item>
+        <item>@string/SWITCH_LABEL_OFF</item>
+    </array>
+
+
+    <array name="widget_setting_switches">
+        <item>@string/SWITCH_LABEL_RANDOM</item>
+        <item>@string/SWITCH_LABEL_FAVOURITES</item>
+    </array>
+
+</resources>
