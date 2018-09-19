@@ -41,8 +41,6 @@ dependencies {
     //dependency for google sign in
     implementation 'com.google.firebase:firebase-auth:16.0.3'
     implementation 'com.google.android.gms:play-services-auth:16.0.0'
-    //dependency for ads
-    implementation 'com.google.android.gms:play-services-ads:15.0.1'
     //dependency for custom views
     implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.flaviofaria:kenburnsview:1.0.7'
