@@ -21,7 +21,7 @@ Android OS
 * [DataBinding](https://developer.android.com/topic/libraries/data-binding/index.html)
 * [Retrofit](https://square.github.io/retrofit/)
 * [Picasso](http://square.github.io/picasso/)
-* [Firebase]https://firebase.google.com/)
+* [Firebase](https://firebase.google.com/)
 * [KenBurnsView](https://github.com/flavioarfaria/KenBurnsView)
 * [shapeofview](https://github.com/florent37/ShapeOfView)
 * [SwitchButton](https://github.com/KingJA/SwitchButton)
