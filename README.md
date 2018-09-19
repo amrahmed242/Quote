@@ -1,5 +1,6 @@
-# Quote
+![Image](screenshots/cover_pic-01.png)
 
+# Quote
 final project for the Udacity Android Developer Nanodegree.
 
 ## Platform
