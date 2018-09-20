@@ -5,6 +5,7 @@ final project for the Udacity Android Developer Nanodegree.
 
 ## Screenshots
 ![Image](screenshots/splash1.png) ![Image](screenshots/mains.png)
+![Image](screenshots/nodata.png) ![Image](screenshots/settings.png)
 
 ## Platform
 Android OS
