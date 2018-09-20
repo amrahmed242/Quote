@@ -3,6 +3,9 @@
 # Quote
 final project for the Udacity Android Developer Nanodegree.
 
+## Screenshots
+![Image](screenshots/splash1.png) ![Image](screenshots/mains.png)
+
 ## Platform
 Android OS
 ## Main Features 
@@ -11,11 +14,11 @@ Android OS
 * A refreshable feed of random quotes.
 * App widget that display daily quotes. 
 ## technical Features 
-● App is written solely in Java Programming Language
-● App utilizes stable release versions of all libraries, Gradle (v4.4) Android Studio  (v3.1.2)
-● App keeps all strings in a string.xml file and enables RTL layout switching on all layouts to support localization.
-● App validates the inputs from api's and users and If data does not exist or is in the wrong format, the app logs this fact and does not crash.
-● App includes support for accessibility including content descriptions.
+* App is written in Java.
+* App utilizes stable release versions of all libraries, Gradle (v4.4) Android Studio  (v3.1.2).
+* App keeps all strings in a string.xml file and enables RTL layout switching on all layouts to support localization.
+* App includes support for accessibility including content descriptions.
+
 ## Built With
 * [Android Studio](https://developer.android.com/studio/index.html) - The Official IDE for Android
 * [Photoshop](https://www.photoshop.com/) - for UI designing
